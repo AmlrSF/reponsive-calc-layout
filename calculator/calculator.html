@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="calculator.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Document</title>
+    </head>
+    <body>
+
+        <!-- header section -->
+        <header class="header">
+            <div class="logo">
+                <h1>amiR<sub>Souaf</sub></h1>
+            </div>
+            <div class="nav-links" id ="nav">
+                <div class="active" id ="close" >
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#calculator">calculator</a></li>
+                    <li><a href="#contactme">contact</a></li>
+                </ul>
+            </div>
+            <div class="menu"  id = "open" >
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </header>
+
+        <!-- home section -->
+        <section class="home-section">
+            <div class="container">
+                <div class="logo">
+                    <h1>amiR<sub data-text="souaf">Souaf</sub></h1>
+                </div>
+                <h3 data-text="i'm web developer">i'm web developer</h3>
+                <div class="icons">
+                    <button>
+                        <i class = "fab fa-facebook"></i>
+                    </button>
+                    <button>
+                        <i class="fab fa-github" ></i>
+                    </button>
+                    <button>
+                        <i class="fab fa-twitter"></i>
+                    </button>
+                    <button>
+                        <i class=" fab fa-whatsapp"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- calculator section  -->
+        <section class="calc-section" id="calculator">
+            <div class="calc-container">
+                <div class="logo">
+                    <h2> simple <sub>calculator</sub></h2>
+                </div>
+                
+                <div class="calclutor">
+                    <div class="result">
+                        <div class="prev-res"></div>
+                        <div class="main-res"></div>
+                    </div>
+                    <button>Ac</button> 
+                    <button>del</button>                 
+                    <button>/</button>
+                    <button>1</button>
+                    <button>2</button>
+                    <button>3</button>
+                    <button>*</button>
+                    <button>4</button>
+                    <button>5</button>
+                    <button>6</button>
+                    <button>-</button>
+                    <button>7</button>
+                    <button>8</button>
+                    <button>9</button>
+                    <button>+</button>
+                    <button>(</button>
+                    <button>0</button>
+                    <button>)</button>
+                    <button>=</button>
+                    <button>.</button>
+                    <button>%</button>
+                    <button><i class="fa-solid fa-calculator-simple "></i></button>
+               </div>
+            </div>
+        </section>
+
+        <!-- contact section -->
+        <section id="contactme">
+            <div class="logo">
+                <h1>amiR<sub>Souaf</sub></h1>
+            </div>
+            <div class="icons">
+                <button>
+                    <i class = "fab fa-facebook"></i>
+                </button>
+                <button>
+                    <i class="fab fa-github" ></i>
+                </button>
+                <button>
+                    <i class="fab fa-twitter"></i>
+                </button>
+                <button>
+                    <i class=" fab fa-whatsapp"></i>
+                </button>
+            </div>
+        </section>
+        
+            <!-- script  -->
+        <script src="calculator.js"></script>
+    </body>
+</html>
