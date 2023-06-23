@@ -1,6 +1,6 @@
 # calculator
 
-follow me on gihub
+`follow me on github`
 
 follow me on twitter :https://twitter.com/Am3r02230942;
 
